@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "341a2283-8042-4cae-814f-6935c367ad60": {
+        "id": "341a2283-8042-4cae-814f-6935c367ad60",
+        "parent": null,
+        "name": "hiru2108_chamath",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c10ef1bc-74c4-4a19-a0de-5d053fb5272f"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru2108_chamath"
+      },
+      "c10ef1bc-74c4-4a19-a0de-5d053fb5272f": {
+        "id": "c10ef1bc-74c4-4a19-a0de-5d053fb5272f",
+        "parent": "341a2283-8042-4cae-814f-6935c367ad60",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru2108_chamath/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "341a2283-8042-4cae-814f-6935c367ad60",
+    "openFiles": [
+      "c10ef1bc-74c4-4a19-a0de-5d053fb5272f"
+    ],
+    "currentFileId": "c10ef1bc-74c4-4a19-a0de-5d053fb5272f",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru2108_chamath",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566382219435
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru2108_chamath",
+      "url": "https://github.com/HirudineeADRT/hiru2108_chamath"
+    }
+  }
+}
